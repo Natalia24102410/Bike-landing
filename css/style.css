@@ -135,32 +135,34 @@ img {
 	max-width:100%;
 	display:flex;
 	text-align:center;
-	
+	position: relative;
 	
 }
-.row C{
+
+.row col-66{
 	width:66.6%;
+	
 }
 .air {
 	width:118px;
 	position: absolute;
 	height:118px;
-	top:calc(50% - 64px);
-	left: calc(50% - 250px);
+	top:calc(50% - 59px);
+	left: calc(50% - 180px);
 }
 .air2 {
 	width:151px;
 	position: absolute;
 	height:169px;
-	top:calc(50% - -462px);
-	left: calc(50% - -153px);
+	top:calc(50% - 75.5px);
+	left: calc(50% - 84.5px);
 }
 .air3 {
 	width:125px;
 	position: absolute;
 	height:250px;
-	top:calc(50% - -978px);
-	left: calc(50% - 495px);
+	top:calc(50% - 62.5px);
+	left: calc(50% - 82px);
 }
 .menu h2{
 	font-size:13px;
@@ -170,10 +172,10 @@ img {
 .menu{
 	text-align:center;
 	width:33.3%;
-	padding:27px 0 0 0;
+	padding:85px 0 0 0;
 
 }
-.B ::before {
+.col col-inner ::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -187,11 +189,11 @@ img {
     border-top-color: white;
     margin-left: -20px;
 }
-.C{
+.col-66{
 	max-width:66.6%;
 	padding:15px 0 0 34px;
 }
-.A{
+.col-inner{
 	text-align:center;
 	
 
@@ -215,7 +217,7 @@ img {
 	text-align:center;
 	line-height:2px;
 }
-.B{
+.col col-inner{
 	text-align:center;
 	padding: 6px 7px 5px 15px;
 	 position: relative;
@@ -226,16 +228,20 @@ img {
 	max-width:100%;
 	display:flex;
 	text-align:center;
+	
 }
 .D{
 	width:66.6%;
+	position: relative;
+	
 }
-.menu1{
-	padding:29px 0 0 34px;
+.col-33{
+	padding:98px 0 0 34px;
 	text-align:center;
 	width:33.3%;
+	
 }
-.menu1 h2{
+.col-33 h2{
 	font-size:13px;
 	padding:5px 69px 60px 60px;
 	line-height:24px;
@@ -245,10 +251,11 @@ img {
 	
 	padding:0 1px 0 34px;
 	text-align:center;
+	
 }
 .flex1{
 	width:33.3%;
-	
+	position: relative;
 	
 }
 .flex2{
