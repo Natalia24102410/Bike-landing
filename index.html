@@ -1,108 +1,363 @@
 <!doctype html>
-<html lang='en'>
+<html lang="en">
 <head>
 	<meta charset='UTF-8'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Bicycles</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css ">
 	<link rel='stylesheet' href='css/style.css'>
+	<link rel="shortcut icon" href="images/logo.png" type="images/png">
 </head>
 <body>
 <div class="wrapper">
 	<header class="header">
 		<div class="container">
+				<div class="navigation">
 			<ul class="left-menu">
-				<li><a href="#">About us</a></li>
-				<li><a href="#">Work</a></li>
+				<li><a href="#about" class="js-anchor">About us</a></li>
+				<li><a href="#work" class="js-anchor">Work</a></li>
 			</ul>
 				<a href="/" class="logo">
 				<img src="images/logo.png" alt="Bicycles">
 				</a>
 			<ul class="right-menu">
-				<li><a href="#">Shop</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-	
-
-	</header>
-	<main>
-		<section class="section main-slider">
-			<img src="images/banner.jpeg" alt="Slide 1">
-		
-		<div class="row"> 
-		
-			<ul class="col-66">
-			<div class="air">
-			<img src="images/icon02.png" alt="Vintage"> </div>
-			
-			<img src="images/img01.jpg" alt="Vintage">
-			</ul>
-				<ul class="menu">
-					<img src="images/icon03.png" alt="icon">
-					<h1>Vintage Oliva</h1>
-					<div class="col-inner">
-						<ul class="col col-inner">
-					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-					labore et dolore magna aliqua. 
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					 </h2>
-					 </ul>
-					  <img src="images/img02.jpg" alt="Img">
-					 </div>
-					
-				</ul>
-		</div>
-			<div class="row1"> 
-				<ul class="col-33">
-					<img src="images/Screenshot_2.png" alt="icon1">
-					<h1>La Bariosa</h1>
-					<div class="col-inner">
-						<ul class="col col-inner">
-					<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-					labore et dolore magna aliqua. 
-					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					 </h2>
-					 </ul>
-					
-					  <img src="images/img03.jpg" alt="Img1">
-					 </div>
-					 </ul>
-					 
-					 <ul class="D">
-					  <div class="air2">
-			<img src="images/icon05.png" alt="Bicecles"> </div>
-			<img src="images/img04.jpg" alt="Boriosa">
+				<li><a href="#shop" class="js-anchor">Shop</a></li>
+				<li><a href="#contact" class="js-anchor">Contact</a></li>
 			</ul>
 			</div>
-				<div class="flex">
-					<ul class="flex1">
-					<div class="air3">
-						<img src="images/icon06.png" alt="Flex">
+				<span class="menu-button">
+					<span> </span>
+					
+				</span>
+				</div>
+			<a href="/" class="logo mobile-logo">
+				<img src="images/logo.png" alt="Bicycles">
+				</a>
+
+	</header>
+	
+	<main>
+<section class="section main-slider">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="images/banner.jpeg" alt="banner">
+			</div>
+				<div class="swiper-slide">
+					<img src="images/im1.jpg" alt="banner">
+				</div>
+						<div class="swiper-slide">
+							<img src="images/im2.jpg" alt="banner">
+						</div>
+   
+		</div>
+				<div class="swiper-pagination"></div>
+				<div class="swiper-button-prev"></div>
+				<div class="swiper-button-next"></div>
+
+	</div>
+</section>
+		<section class="section info" id="info">
+			<div class="container">
+				<div class="row">
+					<div class="info">
 					</div>
-			
-						<img src="images/img05.jpg" alt="Flex1">
-						</ul>
-						
-						<ul class="flex2">
-						<div class="E">
-						<img src="images/icon07.png" alt="Flex2">
-						<h3>Retro Bake - M. Hulot</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+						<div class="text-block">
+							<img src="images/icon01.png" alt="info">
+								<h4>A NEW GENERATION OF VINTAGE BIKE</h4>
+									<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
 						labore et dolore magna aliqua. 
 						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-					 </p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+						labore et dolore magna aliqua. 
+						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+							</p>				
+						</div>
+				</div>
+				</div>
+		</section>
+		<section class="section work" id="work">
+			<div class="container">
+				<div class="row">
+					<div class="col-66">
+						<img src="images/img01.jpg" alt="bike">
+						<img src="images/icon02.png" alt="icon" class="icon">
+					</div>
+					<div class="col-33">
+						<div class="col-inner">
+							<div class="text-block">
+								<img src="images/icon03.png" alt="icon">
+									<h4>Vintage olivia</h4>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+										labore et dolore magna aliqua. 
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+										</p>
+							</div>
+								<div class="image-block">
+									<img src="images/img02.jpg" alt="image">
+								</div>
+						</div>
 					</div>
 					
-					<img src="images/img06.jpg" alt="Flex2">
-					</ul>
-					<ul class="flex3">
-					<img src="images/img07.jpg" alt="Flex3">
-				</ul>
-				</div>	</div>
-	</main>
+				</div>
+			</div>
+		</section>
+		
+	<section class="section about" id="about">
+			<div class="container">
+					<div class="row">
+						<div class="col-33">
+							<div class="col-inner">
+								<div class="text-block">
+							<img src="images/Screenshot_2.png" alt="icon2">
+										<h4>La Bariosa</h4>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+											labore et dolore magna aliqua. 
+											Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+											</p>
+								</div>
+								<div class="image-block">
+										<img src="images/img03.jpg" alt="image1">
+								</div>
+							</div>
+						</div>
+							<div class="col-66-6">
+								<img src="images/img04.jpg" alt="icon" class="icon1">
+									<img src="images/icon05.png" alt="bike">
+							</div>
+					</div>
+			</div>
 	</section>
-	<footer class="footer">
-	</footer>
+		
+		
+<section class="section retro" id="retro">
+		<div class="container">
+				<div class="row">
+					<div class="col-33-3">
+						<img src="images/img05.jpg" alt="bike">
+							<img src="images/icon06.png" alt="icon3">
+								
+					</div>
+								<div class="col-33">
+									<div class="col-inner">
+										<div class="text-block">
+											<img src="images/icon07.png" alt="icon2">		
+												<h4>Retro Bake - M. Hulot</h4>
+												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+												labore et dolore magna aliqua. 
+												Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+												</p>
+										</div>
+											<div class="image-block">
+												<img src="images/img06.jpg" alt="image1">
+											</div>
+										</div>
+								</div>
+									<img src="images/img07.jpg" alt="bike">
+				</div>
+		</div>
+</section>			
+	
+<section class="reviews" id="reviews">
+				<div class="container">
+					<div class="reviews-container">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="social-info">
+									<a href="#">
+										<img src="images/twitter-footer.png" alt="icontwit">
+									</a>
+									<h3 class="title">
+										AOD New York  @aod<span class="color"> / 35 min</span>
+									</h3>
+									<p class="text-reviews">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="social-info">
+									<a href="#">
+										<img src="images/facebook-footer.png" alt="instagram">
+									</a>
+									<h3 class="title">
+										AOD New York  @aod<span class="color"> / 35 min</span>
+									</h3>
+									<p class="text-reviews">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+									</p>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="social-info">
+									<a href="#">
+										<img src="images/logo2.png" alt="youtube">
+									</a>	
+									<h3 class="title">
+										AOD New York  @aod<span class="color"> / 35 min</span>
+									</h3>
+									<p class="text-reviews">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut tellus ac nulla semper rhoncus. Nullam a odio porttitor, dictum turpis vitae, pretium ante amet.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+	
+<section class="section shop-class" id="shop">
+            <div class="container">
+                <div class="row">
+                    <div class="col-33">
+                        <div class="row">
+                            <div class="col-50 square">
+                                <a href='#'>
+                                    <img src="images/img08.jpg" alt="img">
+									<div class="shop-now">
+								<img src="images/icon8.png" alt="Shop-now">
+								<span> Shop now</span>
+								</div>
+								
+                                </a>
+                            </div>
+                           <div class="col-50 square">
+                                <a href='#'>
+                                    <img  src="images/img09.jpg" alt="img">
+									<div class="shop-now">
+								<img src="images/icon8.png" alt="Shop-now">
+								<span> Shop now</span>
+								</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-100">
+                                <a href='#'>
+                                    <img src="images/img10.jpg" alt="img">
+									<div class="shop-now">
+								<img src="images/icon8.png" alt="">
+								<span> Shop now</span>
+								</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-33">
+						<div class="row full-height">
+							<div class="full-height-50">
+							<a href='#'>
+                                    <img src="images/img11.jpg" alt="img">
+									<div class="shop-now">
+								<img src="images/icon8.png" alt="Shop-now">
+								<span> Shop now</span>
+								</div>
+                                </a>
+							</div>
+							<div class="full-height-50">
+							<a href='#'>
+                                    <img src="images/img12.jpg" alt="img">
+									<div class="shop-now">
+								<img src="images/icon8.png" alt="Shop-now">
+								<span> Shop now</span>
+								</div>
+                                </a>
+						</div>
+						</div>
+                    </div>
+                      <div class="col-33">
+					   <div class="row">
+                            <div class="col-100">
+                                <a href='#'>
+                                    <img src="images/img13.jpg" alt="img">
+									<div class="shop-now">
+								<img src="images/icon8.png" alt="Shop-now">
+								<span> Shop now</span>
+								</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-50 square">
+                                <a href='#'>
+                                    <img src="images/img14.jpg" alt="img">
+								<div class="shop-now">
+								<img src="images/icon8.png" alt="Shop-now">
+								<span> Shop now</span>
+								</div>
+							   </a>
+                            </div>
+                            <div class="col-50 square">
+                                <a href='#'>
+                                    <img  src="images/img15.jpg" alt="img">
+									<div class="shop-now">
+								<img src="images/icon8.png" alt="Shop-now">
+								<span> Shop now</span>
+								</div>
+                                </a>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+ <section class="discover" id="contact">
+            <div class="container">
+                <div class="button">
+                    <a href="#">Discover the shop</a>
+                </div>
+            </div>
+        </section>
+        <section class="form" id="contacts">
+            <div class="container">
+                <div class="title-form">
+                    <img src="images/logo.png" alt="">
+                    <p>Stay on the saddle!</p>
+                </div>
+                <div class="form-inner">
+                    <input type="text" id="name" name="name" placeholder="enter your name...">
+                    <button class="submit">GO</button>
+                </div>
+            </div>
+        </section>
+	</main>
+	
+	  <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-information">
+                <div class="col-33">
+                    <div class="contacts">
+                        <p>AOD New York</p>
+                        <p>2250 Lexington Avenue </p>
+                        <p>New York, NY 10035 - <a href="mailto:info@domain.com">info@domain.com</a></p>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="social">
+                        <a href=""><img src="images/twitter-footer.png" alt=""></a>
+                        <a href=""><img src="images/facebook-footer.png" alt=""></a>
+                        <a href=""><img src="images/pinterest.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-33">
+                    <div class="designedby">
+                        <p>Handcrafted by</p>
+                        <img src="images/logo2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
-
+</div>
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
+<script src="js/jquery.3.5.1.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/scripts.js"></script> 
 </body>
+
+
 </html>
